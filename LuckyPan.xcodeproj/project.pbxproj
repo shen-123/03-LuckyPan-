@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183475321CF6887D0095C9A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183475311CF6887D0095C9A6 /* main.m */; };
+		1834753D1CF6887D0095C9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1834753C1CF6887D0095C9A6 /* Assets.xcassets */; };
+		183475401CF6887D0095C9A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1834753E1CF6887D0095C9A6 /* LaunchScreen.storyboard */; };
+		1834754F1CF689180095C9A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1834754E1CF689180095C9A6 /* AppDelegate.m */; };
+		183475531CF6895E0095C9A6 /* MMLuckyPanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183475511CF6895E0095C9A6 /* MMLuckyPanController.m */; };
+		183475541CF6895E0095C9A6 /* MMLuckyPanController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183475521CF6895E0095C9A6 /* MMLuckyPanController.xib */; };
+		183475571CF692DE0095C9A6 /* MMLuckyRotateWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183475561CF692DE0095C9A6 /* MMLuckyRotateWheel.m */; };
+		183475591CF692F30095C9A6 /* MMLuckyRotateWheel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183475581CF692F30095C9A6 /* MMLuckyRotateWheel.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1834752D1CF6887D0095C9A6 /* LuckyPan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyPan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183475311CF6887D0095C9A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1834753C1CF6887D0095C9A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1834753F1CF6887D0095C9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		183475411CF6887D0095C9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1834754D1CF689180095C9A6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1834754E1CF689180095C9A6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		183475501CF6895E0095C9A6 /* MMLuckyPanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLuckyPanController.h; sourceTree = "<group>"; };
+		183475511CF6895E0095C9A6 /* MMLuckyPanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLuckyPanController.m; sourceTree = "<group>"; };
+		183475521CF6895E0095C9A6 /* MMLuckyPanController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMLuckyPanController.xib; sourceTree = "<group>"; };
+		183475551CF692DE0095C9A6 /* MMLuckyRotateWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLuckyRotateWheel.h; sourceTree = "<group>"; };
+		183475561CF692DE0095C9A6 /* MMLuckyRotateWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLuckyRotateWheel.m; sourceTree = "<group>"; };
+		183475581CF692F30095C9A6 /* MMLuckyRotateWheel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMLuckyRotateWheel.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1834752A1CF6887D0095C9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183475241CF6887D0095C9A6 = {
+			isa = PBXGroup;
+			children = (
+				1834752F1CF6887D0095C9A6 /* LuckyPan */,
+				1834752E1CF6887D0095C9A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1834752E1CF6887D0095C9A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1834752D1CF6887D0095C9A6 /* LuckyPan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1834752F1CF6887D0095C9A6 /* LuckyPan */ = {
+			isa = PBXGroup;
+			children = (
+				183475471CF689180095C9A6 /* LuckyPan */,
+				1834754C1CF689180095C9A6 /* Other */,
+				183475301CF6887D0095C9A6 /* Supporting Files */,
+			);
+			path = LuckyPan;
+			sourceTree = "<group>";
+		};
+		183475301CF6887D0095C9A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1834753C1CF6887D0095C9A6 /* Assets.xcassets */,
+				1834753E1CF6887D0095C9A6 /* LaunchScreen.storyboard */,
+				183475411CF6887D0095C9A6 /* Info.plist */,
+				183475311CF6887D0095C9A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183475471CF689180095C9A6 /* LuckyPan */ = {
+			isa = PBXGroup;
+			children = (
+				183475481CF689180095C9A6 /* Controllers */,
+				183475491CF689180095C9A6 /* Models */,
+				1834754A1CF689180095C9A6 /* Others */,
+				1834754B1CF689180095C9A6 /* Views */,
+			);
+			path = LuckyPan;
+			sourceTree = "<group>";
+		};
+		183475481CF689180095C9A6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				183475501CF6895E0095C9A6 /* MMLuckyPanController.h */,
+				183475511CF6895E0095C9A6 /* MMLuckyPanController.m */,
+				183475521CF6895E0095C9A6 /* MMLuckyPanController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		183475491CF689180095C9A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1834754A1CF689180095C9A6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		1834754B1CF689180095C9A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				183475551CF692DE0095C9A6 /* MMLuckyRotateWheel.h */,
+				183475561CF692DE0095C9A6 /* MMLuckyRotateWheel.m */,
+				183475581CF692F30095C9A6 /* MMLuckyRotateWheel.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1834754C1CF689180095C9A6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1834754D1CF689180095C9A6 /* AppDelegate.h */,
+				1834754E1CF689180095C9A6 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1834752C1CF6887D0095C9A6 /* LuckyPan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183475441CF6887D0095C9A6 /* Build configuration list for PBXNativeTarget "LuckyPan" */;
+			buildPhases = (
+				183475291CF6887D0095C9A6 /* Sources */,
+				1834752A1CF6887D0095C9A6 /* Frameworks */,
+				1834752B1CF6887D0095C9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyPan;
+			productName = LuckyPan;
+			productReference = 1834752D1CF6887D0095C9A6 /* LuckyPan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183475251CF6887D0095C9A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					1834752C1CF6887D0095C9A6 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FTPHW9LWFD;
+					};
+				};
+			};
+			buildConfigurationList = 183475281CF6887D0095C9A6 /* Build configuration list for PBXProject "LuckyPan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183475241CF6887D0095C9A6;
+			productRefGroup = 1834752E1CF6887D0095C9A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1834752C1CF6887D0095C9A6 /* LuckyPan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1834752B1CF6887D0095C9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183475541CF6895E0095C9A6 /* MMLuckyPanController.xib in Resources */,
+				183475591CF692F30095C9A6 /* MMLuckyRotateWheel.xib in Resources */,
+				183475401CF6887D0095C9A6 /* LaunchScreen.storyboard in Resources */,
+				1834753D1CF6887D0095C9A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183475291CF6887D0095C9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183475321CF6887D0095C9A6 /* main.m in Sources */,
+				183475571CF692DE0095C9A6 /* MMLuckyRotateWheel.m in Sources */,
+				1834754F1CF689180095C9A6 /* AppDelegate.m in Sources */,
+				183475531CF6895E0095C9A6 /* MMLuckyPanController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1834753E1CF6887D0095C9A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1834753F1CF6887D0095C9A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183475421CF6887D0095C9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		183475431CF6887D0095C9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183475451CF6887D0095C9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckyPan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itcast.LuckyPan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		183475461CF6887D0095C9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LuckyPan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itcast.LuckyPan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183475281CF6887D0095C9A6 /* Build configuration list for PBXProject "LuckyPan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183475421CF6887D0095C9A6 /* Debug */,
+				183475431CF6887D0095C9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183475441CF6887D0095C9A6 /* Build configuration list for PBXNativeTarget "LuckyPan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183475451CF6887D0095C9A6 /* Debug */,
+				183475461CF6887D0095C9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183475251CF6887D0095C9A6 /* Project object */;
+}
